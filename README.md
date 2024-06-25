@@ -23,19 +23,26 @@ ORION v0.1
 Author: B0lg0r0v
 https://arthurminasyan.com/
 
-PROCESS NAME: firefox.exe  (PID: 16004)
-        Local Port: 54219
-        Remote Addr: 3.221.32.141:443 --> [SAFE]
-        Local Port: 54784
-        Remote Addr: 140.82.114.26:443 --> [SAFE]
+PROCESS NAME:   msedge.exe  (PID: 21868)
+                Local Port: 57809
+                Remote Addr: 20.250.77.142:443 --> [SAFE]
 
-PROCESS NAME: ServiceHub.SettingsHost.exe  (PID: 28828)
-        Local Port: 55452
-        Remote Addr: 140.82.112.25:443 --> [SAFE]
+PROCESS NAME:   msedge.exe  (PID: 21868)
+                Local Port: 57977
+                Remote Addr: 140.82.112.25:443 --> [SAFE]
 
-PROCESS NAME: firefox.exe  (PID: 16004)
-        Local Port: 55555
-        Remote Addr: 185.199.109.133:443 --> [SAFE]
+PROCESS NAME:   firefox.exe  (PID: 7880)
+                Local Port: 58050
+                Remote Addr: 13.83.65.43:443 --> [SAFE]
+
+PROCESS NAME:   Skype.exe  (PID: 30764)
+                Local Port: 58107
+                Remote Addr: 162.159.137.232:443 --> [SAFE]
+
+PROCESS NAME:   Discord.exe  (PID: 19732)
+                Local Port: 58116
+                Remote Addr: 162.159.134.233:443 --> [MALICIOUS]
+
 ```
 
 ## Features
