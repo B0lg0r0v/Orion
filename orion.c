@@ -38,7 +38,7 @@ void printProcessNames(DWORD processID) {
 
             if (GetModuleBaseName(hProcess, hMod, szProcessName, sizeof(szProcessName) / sizeof(TCHAR))) {
 
-                _tprintf(TEXT("\nPROCESS NAME: %s  (PID: %u)\n"), szProcessName, processID);
+                _tprintf(TEXT("\nPROCESS NAME: \t%s  (PID: %u)\n"), szProcessName, processID);
 
             }
 
@@ -271,9 +271,9 @@ int TCPOutboundConnections() {
             u_short remoteport = ntohs((u_short)pTcpTable->table[i].dwRemotePort);
 
 
-            printf("\tLocal Port: %d\n", localport);
+            printf("\t\tLocal Port: %d\n", localport);
             //printf("DEBUG: %s\n", szRemoteAddr);
-            printf("\tRemote Addr: %s:%d --> [%s]\n", szRemoteAddr, remoteport, checkIP(szRemoteAddr) ? "NALICIOUS" : "SAFE");
+            printf("\t\tRemote Addr: %s:%d --> [%s]\n", szRemoteAddr, remoteport, checkIP(szRemoteAddr) ? "MALICIOUS" : "SAFE");
             printProcessNames(pTcpTable->table[i].dwOwningPid);
             //checkIP(szRemoteAddr);
 
