@@ -29,10 +29,6 @@ PROCESS NAME: firefox.exe  (PID: 16004)
         Local Port: 54784
         Remote Addr: 140.82.114.26:443 --> [SAFE]
 
-PROCESS NAME: GitHubDesktop.exe  (PID: 32856)
-        Local Port: 55370
-        Remote Addr: 40.84.185.67:9354 --> [SAFE]
-
 PROCESS NAME: ServiceHub.SettingsHost.exe  (PID: 28828)
         Local Port: 55452
         Remote Addr: 140.82.112.25:443 --> [SAFE]
