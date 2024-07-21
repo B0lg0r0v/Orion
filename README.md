@@ -15,7 +15,7 @@
 </div>
 
 ## Description
-Orion is a TCP/IP forensics tool, written in C, capable of detecting malicious processes / connections by using the VirusTotal API.
+Orion is a TCP/IP forensics tool, written in C, capable of detecting malicious processes / connections on windows hosts by using the VirusTotal API.
 
 *Example Output:*
 ```
